@@ -1,0 +1,98 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+ body{
+    background-color: grey;
+ }
+
+.parent
+{
+display: flex;
+flex-direction: column;
+border: 6px solid green;
+align-content: space-between;
+}
+
+.childflex
+{
+display: flex;
+justify-content: space-between;
+
+}
+
+.box
+{
+background-color: white;
+border: 5px solid red;
+border-radius: 20px;
+box-shadow: 5px 5px 0px 0px rgb(101, 57, 114);
+color: rgb(0, 0, 68);
+text-shadow: 1px 1px 1px  rgb(101, 57, 114);
+text-align: center;
+font-size: large;
+font-weight: bolder;
+width: 200px;
+height: 200px;
+margin: 20px;
+padding: 10px;
+}
+
+.head
+{
+    position: relative;
+    left: 30%;
+    width: 450px;
+    height: 100px;
+    font-style: italic;
+}
+
+.sticky
+{
+    color: rgb(202, 5, 5);
+    display: flex;
+    background-color: rgb(153, 182, 50);
+    border: 5px solid red;
+    border-radius: 15px;
+    box-shadow: 5px 5px 0px 0px rgb(101, 57, 114);
+    font-style: italic;
+    position: fixed;
+    z-index: 1;
+    left: 35%;
+    top: 400px;
+    width: 400px;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.parent2
+{
+    border: 5px solid rgb(78, 0, 109);
+    background-color: rgb(153, 182, 50);
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    position: relative;
+    left: 15%;
+    margin: 30px;
+    text-align: center;
+    padding: 5px;
+    font-style: italic;
+}
+
+.child-row
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+.vegee
+{
+    background-color: rgb(241, 224, 149);
+   
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+    width: 100%;
+}
